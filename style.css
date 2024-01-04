@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+head body {
+    height: 100%;
+    width: 100%;
+}
+.page1{
+    height: 300%;
+    width: 100%;
+}
+.icon{
+    /* background-color:black; */
+    padding: 3% 5%;
+
+}
+.icons{
+    position: absolute;
+    top: 90%;
+    left: 12%;
+}
+.head{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+
+}
+h1{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    color:rgb(92, 114, 160);
+    /* text-transform: capitalize; */
+}
+.para{
+    height: 100%;
+    width: 53%;
+    position: absolute;
+    top: 45%;
+    left:25%;
+}
+p{
+    font-size: 20px;
+    color:#a4a3a3;
+    font-weight: 500;
+    text-align: center;
+}
+.cards{
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    position: absolute;
+    top: 70%;
+    left: 20%;
+
+
+
+}
+.cards>img{
+    height: 50%;
+    margin: 5px 5px;
+   width: 40%;
+   border-radius: 2%;
+
+}
+.mid{
+    position: absolute;
+    top: 170%;
+    left: 44%;
+    /* transform: translate(-50,50); */
+margin: 9px;
+    
+}
+.mid>h1{
+    color: rgb(233, 43, 81);
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.mid>p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+/* .page2{
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+} */
+.column{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 200%;
+    left: 30%;
+    font-family: 'Courgette', cursive;
+    font-size: 12px;
+    color: rgb(104, 103, 103);
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
+}
+.card2{
+    
+    position: absolute;
+    top: 230%;
+    left: 20%;
+
+
+
+}
+.card2>img{
+    height: 50%;
+    margin: 5px 5px;
+   width: 40%;
+   border-radius: 2%;
+
+}
+.lower{
+        height: 100%;
+        width: 40%;
+        position: absolute;
+        top: 280%;
+        left: 37.5%;
+    
+}
+.lower>h1{
+    color:rgb(51, 104, 203);
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.low{
+    height: 100%;
+    width: 53%;
+    position: absolute;
+    top: 295%;
+    left:29%;
+}
+.low>p{
+    font-size: 20px;
+    color:#a4a3a3;
+    font-weight: 500;
+    text-align: center;
+}
+.columns{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 310%;
+    left: 28%;
+    font-family: 'Courgette', cursive;
+    font-size: 12px;
+    color: rgb(104, 103, 103);
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
+}
+
+.card3{
+    
+    position: absolute;
+    top: 340%;
+    left: 20%;
+
+
+
+}
+.card3>img{
+    height: 50%;
+    margin: 5px 5px;
+   width: 40%;
+   border-radius: 2%;
+
+}
+.para2{
+    width: 50%;
+    position: absolute;
+    top: 445%;
+    left: 30%;
+}
+.para2>p{
+    font-size: 40px;
+    color: rgba(169, 225, 72, 0.547);
+    text-shadow: 1px 1px 1px 1px rgba(106, 142, 45, 0.547);
+    font-family: 'Passion One', sans-serif;
+    /* font-weight: 300; */
+    line-height: 45px;
+    word-spacing: 6px;
+    letter-spacing: 3px;
+}
+.card4{
+    
+    position: absolute;
+    top: 480%;
+    left: 20%;
+
+
+
+}
+.card4>img{
+    height: 50%;
+    margin: 5px 5px;
+   width: 40%;
+   border-radius: 2%;
+
+}
+.footer{
+    /* height: 100%; */
+    width: 40%;
+    position: absolute;
+    top: 570%;
+    left: 44%;
+
+}
+.footer>h1{
+color:rgb(137, 191, 45);
+font-family: 'Poppins', sans-serif;
+font-weight: 800;
+text-shadow: 2px 2px  rgb(177, 215, 112);;
+}
+.foot1{
+/* height: 100%; */
+width: 50%;
+position: absolute;
+top: 585%;
+left:30%;
+}
+.foot1>p{
+
+font-size: 15px;
+color:#a4a3a3;
+font-weight: 500;
+text-align: center;
+font-family: 'Poppins', sans-serif;
+}
+.btn{
+    height: 15%;
+    position: absolute;
+    top: 600%;
+    left: 45%;
+}
+button{
+    font-size: 15px;
+    padding: 20px 60px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    /* border:1px solid black; */
+    background-color: #fff;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 4px 4px #e1e1e1;
+    
+}
